@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:rgb(20, 50, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:darkcyan;
+    color:black;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+img {
+    width: 100px;
+}
+.error{
+    color: red;
+    font-weight: bold;
+}
+#weatherInfo p {
+    font-size: 18px;
+}
+
+.unit-toggle {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.unit-toggle:hover {
+    background-color: darkcyan;
+}
+.loading {
+    font-size: 18px;
+    font-style: italic;
+}
+/* Hourly Forecast */
+.hourly-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.hour {
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
