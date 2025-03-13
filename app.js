@@ -1,4 +1,4 @@
-const apiKey="74f68aed5a6912c425d9b26f664f391d";//ap key from site
+const apiKey=config.apiKey;
 const getWeatherBtn=document.getElementById("getWeatherBtn");//from html id
 const weatherInfo=document.getElementById("weatherInfo");//from html id
 const cityInput=document.getElementById("cityInput");//from html id
