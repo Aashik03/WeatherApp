@@ -55,9 +55,6 @@ Fork this repository.
 Clone your fork to your local machine.
 Make your changes and commit them.
 Push your changes and create a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
 OpenWeather API: For providing weather data.
-GitHub Pages: For hosting the app for free.
