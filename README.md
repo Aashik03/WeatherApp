@@ -4,7 +4,7 @@ A simple weather forecasting application that allows users to check the weather 
 ![image](https://github.com/user-attachments/assets/a9285d4f-bec4-4b2e-ac17-a3d06b298960)
 
 
-Features
+# Features
 Current Weather: Displays the current temperature, weather condition (e.g., sunny, rainy), and weather icon.
 Hourly Forecast: Shows the weather forecast for the next few hours.
 Geolocation: Automatically detects your location and shows the weather for that location.
@@ -15,28 +15,28 @@ HTML: For the structure of the app.
 CSS: For styling the app and making it responsive.
 JavaScript: To fetch weather data, handle user input, and display the results.
 OpenWeather API: Used to fetch weather data.
-Installation
-Clone the repository:
 
+# Installation
+Clone the repository:
 bash
 Copy
 Edit
 git clone https://github.com/your-username/WeatherApp.git
 Navigate to the project folder:
-
 bash
 Copy
 Edit
 cd WeatherApp
 Open index.html in your browser to see the app in action.
 
-How to Use
+# How to Use
 Open the app in your browser.
 You can either:
 Click on "Use my location" to get the weather for your current location (browser permissions required).
 Enter a city name in the search bar and click "Get Weather" to see the forecast for that city.
 Toggle between Celsius and Fahrenheit using the "Switch to Fahrenheit" / "Switch to Celsius" button.
-API Key
+
+# API Key
 This project uses the OpenWeather API to fetch weather data. You will need to replace the apiKey in the app.js file with your own API key:
 
 Go to OpenWeatherMap.
@@ -56,5 +56,5 @@ Clone your fork to your local machine.
 Make your changes and commit them.
 Push your changes and create a pull request.
 
-Acknowledgments
+# Acknowledgments
 OpenWeather API: For providing weather data.
